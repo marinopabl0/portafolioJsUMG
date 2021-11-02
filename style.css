@@ -275,7 +275,40 @@ header nav .menu-right a:hover{
     padding-top: 40px;
     padding-bottom: 40px;
 }
-.contact .content
+.contact .content{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact .field{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.contact .field input,textarea{
+    padding: 10px;
+    border: 1px solid #b8b8b8;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.contact button{
+    width: 200px;
+    max-width: 200px;
+    text-align: center;
+    padding: 10px 30px;
+    background: #1f2231;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.contact .btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.contact .btn button{
+    margin-top: 10px;
+}
 
 
 /* footer */
@@ -400,4 +433,5 @@ footer .content .copyright{
         object-position: center;
         object-fit: cover;
     }
+
   }
